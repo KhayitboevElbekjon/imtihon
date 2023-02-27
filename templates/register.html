@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+<form method="post">
+    {% csrf_token %}
+    <input name="login" type="text" placeholder="Username...">
+    <br>
+    <br>
+    <input name="parol" type="password" placeholder="Password...">
+    <br>
+    <br>
+      <input name="parol2" type="password" placeholder="Coreect Password...">
+    <br>
+    <br>
+    <button type="submit"> Tasdiqlash</button>
+
+</form>
+</body>
+</html>
